@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Wireless Key</string>
+    <string name="action_settings">Settings</string>
+    <string name="connection_status">No Connection</string>
+
+    <string name="first_row_shift">~!@#$%^&amp;*()_+</string>
+    <string name="first_row">&#96;1234567890-=</string>
+    <string name="second_row_shift">{}|</string>
+    <string name="second_row">[]\\</string>
+    <string name="third_row_shift">:\"</string>
+    <string name="third_row">;\&apos;</string>
+    <string name="fourth_row_shift">&lt;&gt;?</string>
+    <string name="fourth_row">,.&#47;</string>
+
+    <integer-array name="vk_first_row">
+        <item>192</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>48</item>
+        <item>45</item>
+        <item>61</item>
+        <item>8</item>
+    </integer-array>
+
+    <integer-array name="vk_second_row">
+        <item>9</item>
+        <item>81</item>
+        <item>87</item>
+        <item>69</item>
+        <item>82</item>
+        <item>84</item>
+        <item>89</item>
+        <item>85</item>
+        <item>73</item>
+        <item>79</item>
+        <item>80</item>
+        <item>91</item>
+        <item>93</item>
+        <item>92</item>
+    </integer-array>
+
+    <integer-array name="vk_third_row">
+        <item>65</item>
+        <item>83</item>
+        <item>68</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>59</item>
+        <item>222</item>
+        <item>10</item>
+    </integer-array>
+
+    <integer-array name="vk_fourth_row">
+        <item>90</item>
+        <item>88</item>
+        <item>67</item>
+        <item>86</item>
+        <item>66</item>
+        <item>78</item>
+        <item>77</item>
+        <item>44</item>
+        <item>46</item>
+        <item>47</item>
+    </integer-array>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+</resources>
